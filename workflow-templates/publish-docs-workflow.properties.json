@@ -1,0 +1,11 @@
+{
+  "name": "Backstage Generate Document Workflow",
+  "description": "Generate document for backstage instance",
+  "iconName": "repo-icon",
+  "categories": [
+    "Backstage"
+  ],
+  "filePatterns": [
+    "catalog-info.yaml"
+  ]
+}
