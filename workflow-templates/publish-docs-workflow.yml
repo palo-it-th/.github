@@ -2,10 +2,7 @@ name: Generate Document for Backstage
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - docs/**
-      - mkdocs.yml
+  workflow_call:
 
 jobs:
   publish_document:
