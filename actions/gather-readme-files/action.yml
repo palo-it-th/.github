@@ -1,8 +1,0 @@
-name: Gather Readme Files
-description: This action gathers all the README files from the repository and combines them into docs folder
-
-runs:
-  using: composite
-  steps:
-    - run: prepare-docs.sh
-      shell: bash
